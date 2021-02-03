@@ -49,6 +49,6 @@ print(len(All_lifecycle_id))
 f=open('Lifecycles_3.txt','w')
 for ele in Unused_lifecycle_id:
     f.write(ele+'\n')
-
+#Random commit to understand working of git
 f.close()
 print(len(Unused_lifecycle_id))
